@@ -77,7 +77,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                     JSONArray results = jsonObject.getJSONArray("results");
                     JSONObject item = results.getJSONObject(0);
                     youtubeKey = item.optString("key");
-                    System.out.println(youtubeKey);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
