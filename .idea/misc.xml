@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/custom_ratingbar.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/divider.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/round_layout.xml" value="0.195" />
         <entry key="app/src/main/res/layout-land/item_movie.xml" value="0.22131147540983606" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_movie_details.xml" value="0.125" />
