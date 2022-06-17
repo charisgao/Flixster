@@ -65,7 +65,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                 .transform(new RoundedCorners(30))
                 .into(ivDetailsPoster);
 
-        //
         String MOVIES_URL = "https://api.themoviedb.org/3/movie/" + movie.getId() + "/videos?api_key=51c4f57822543598b4d5cedc490083de";
 
         AsyncHttpClient client = new AsyncHttpClient();
@@ -93,9 +92,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
                 Intent intent = new Intent(MovieDetailsActivity.this, MovieTrailerActivity.class);
                 // Serializes the movie using Parceler, uses its short name as a key
                 intent.putExtra(Movie.class.getSimpleName(), Parcels.wrap(movie));
-
                 intent.putExtra("youtube_key", youtubeKey);
-
                 startActivity(intent);
             }
         });
