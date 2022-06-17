@@ -30,13 +30,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/l
-ink/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./cgflixster.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-I faced some problems passing data from the detail view to the trailer activity view to get the YouTube URL to display the trailer for the selected movie. I solved this issue after asking for help to understand intents and extras as well as by adding Log messages and looking at Logcat to see the current status/position of the code.
+- I faced some problems passing data from the detail view to the trailer activity view to get the YouTube URL to display the trailer for the selected movie. I solved this issue after asking for help to understand intents and extras as well as by adding Log messages and looking at Logcat to see the current status/position of the code.
 
 ## Open-source libraries used
 
